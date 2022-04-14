@@ -1,6 +1,6 @@
 - title: Downloads
   url: /downloads/
-  sublinks: 
+  sublinks : 
     - title: Bash Scripts
       url: /downloads/bashscriptdownload.html
 
@@ -23,6 +23,11 @@
 
 - title: Tutorials
   url: /tutorials
+  sublinks :
+  - title : File Transfer
+    url : /tutorials/filetransfer.html
+  - title : Jekyll tutorial
+    url : /tutorials/websitetutorial.html
 
 - title: Workshops
   url: /workshops
