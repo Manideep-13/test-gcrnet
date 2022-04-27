@@ -6,13 +6,16 @@
 
 - title: FAQ
   url: /faq
-  sublinks :
-   - title : Faq
-     url : /faq/faq.html
 
 - title: HowTo
-  url: /howto
+  url: /howto/
+  sublinks : 
+    - title: Github Howtos
+      url: /howto/howtogit.html
+    - title : Basic Shell Commands
+      url : /howto/basicshell.html
 
+  
 - title: Projects
   url: /projects
   sublinks :
@@ -28,6 +31,11 @@
     url : /tutorials/filetransfer.html
   - title : Jekyll tutorial
     url : /tutorials/websitetutorial.html
+  - title : Google Drive Setup
+    url : /tutorials/Setup_Google_Drive.html
+  - title : Globus CLI
+    url : /tutorials/globus_cli.html
+
 
 - title: Workshops
   url: /workshops
