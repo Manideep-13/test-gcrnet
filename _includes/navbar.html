@@ -30,12 +30,13 @@
             {% if links.sublinks %}
             <li>
               <div class = "dropdown">
-                <div class ="dropbtn">
+                <i class="db2" tabindex="1"></i>
+                <button class ="dropbtn">
                   <a class ="clear" aria-label="{{ links.title }}" title="{{ links.title }}" href="{{ links.url | relative_url }}">
                     {% if links.icon %} <i class="fa {{ links.icon }}" aria-hidden="true"></i>
                     {% else %}{{links.title}} <span>&#x25BC;</span>{% endif%}
                   </a>
-                </div> 
+                </button> 
                 <div class ="dropdown-content">
                   {% for link in links.sublinks %}
                     <a class ="clear" aria-label="{{ link.title }}" title="{{ link.title }}" href="{{ link.url | relative_url }}">
